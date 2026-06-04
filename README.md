@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi there, I'm Parth 👋
 
-<!--
-**Parthsantoki2003/Parthsantoki2003** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a Full-Stack Backend & AI Engineer specializing in production-ready AI orchestration, intelligent automation, and high-performance microservices. I build scalable architectures that connect raw data to intelligent models.
 
-Here are some ideas to get you started:
+### 🚀 Core Focus
+* **AI Architecture:** Retrieval-Augmented Generation (RAG) pipelines, semantic search tuning, and vector database deployment (Qdrant).
+* **Backend & Cloud:** Scalable, non-blocking asynchronous APIs using FastAPI, Node.js, and containerized deployments.
+* **Web Automation:** Highly optimized data extraction pipelines, dynamic web scraping, and custom logic repair.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🛠️ Tech Stack & Tooling
+* **Languages:** Python, JavaScript (ES6+), SQL
+* **Frameworks & Libraries:** FastAPI, Uvicorn, Express.js, LangChain, FastEmbed
+* **Databases & Vector Stores:** Qdrant, PostgreSQL, MongoDB, Redis
+* **Frontend & UX:** Vanilla JS, Tailwind CSS, Glassmorphism & Responsive UI Design
+* **DevOps & Cloud:** Git, Linux, Docker, Render, Google Cloud Platform (Cloud Run)
+
+### 📈 Active Engineering Projects
+* **Enterprise IT Support RAG System:** A hallucination-proof, defensive-parsing AI assistant backed by Qdrant and Groq, optimized for ultra-low latency on minimal RAM constraints.
+* **Interactive Event Orchestration Engines:** Real-time bi-directional streaming tools using Node.js, WebSockets, and C# integrations.
+
+📫 **Let's Connect:** [Your Email] | [Your LinkedIn/Portfolio] | [Your Upwork Profile]
