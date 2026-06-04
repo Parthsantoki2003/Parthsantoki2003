@@ -18,4 +18,4 @@ I am a Full-Stack Backend & AI Engineer specializing in production-ready AI orch
 * **Enterprise IT Support RAG System:** A hallucination-proof, defensive-parsing AI assistant backed by Qdrant and Groq, optimized for ultra-low latency on minimal RAM constraints.
 * **Interactive Event Orchestration Engines:** Real-time bi-directional streaming tools using Node.js, WebSockets, and C# integrations.
 
-📫 **Let's Connect:**   santokiparth.dev | https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share
+📫 **Let's Connect:**   https://www.santokiparth.dev | https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share
