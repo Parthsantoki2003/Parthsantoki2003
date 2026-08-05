@@ -1,59 +1,147 @@
-# Hi there, I'm Parth 👋
+# Hi there, I'm Parth Santoki 👋
 
-I am a Cloud-certified AI & Python Developer specializing in production-ready AI orchestration, secure enterprise applications, and high-performance microservices. I build scalable architectures that connect raw data to intelligent models and decoupled frontends.
+<p align="left">
+I design and build intelligent backend systems that combine AI, cloud infrastructure, and scalable APIs to solve real-world enterprise problems.
+</p>
 
-### 🚀 Core Focus
-* **Backend & Cloud Architecture:** Scalable, non-blocking asynchronous APIs using Python (FastAPI), Node.js, and containerized cloud deployments.
-* **Enterprise Security & Auth:** Implementing strict Role-Based Access Control (RBAC), stateless JWT authentication pipelines, and secure background task processing.
-* **AI & RAG Systems:** Retrieval-Augmented Generation pipelines, semantic search tuning, prompt engineering, and vector database deployment (Qdrant).
-* **Real-Time Data Flow:** Interactive bi-directional streaming, event orchestration using WebSockets, and Web Scraping.
+<p align="left">
+My work focuses on Retrieval-Augmented Generation (RAG), multi-agent AI systems, enterprise backend architecture, and secure cloud-native applications. I enjoy transforming complex workflows into reliable, production-ready software using Python, FastAPI, PostgreSQL, Docker, and modern AI frameworks.
+</p>
 
-### 🛠️ Tech Stack & Tooling
-* **Languages:** Python, JavaScript (ES6+), SQL, Java, HTML5, CSS3.
-* **Backend Frameworks & APIs:** FastAPI, Django, Uvicorn, Express.js, RESTful APIs, JSON, AJAX.
-* **Databases & ORMs:** PostgreSQL, SQLModel / SQLAlchemy, Qdrant, MongoDB, Redis.
-* **AI & Data:** Machine Learning, Data Science, Prompt Engineering, DSPy, Groq, LangChain.
-* **Security & Auth:** PyJWT, bcrypt, Brevo HTTP API.
-* **Cloud & DevOps:** Oracle Cloud, IBM Cloud, Google Cloud Platform (GCP), Vercel, Render, Docker, n8n, GitHub.
+---
 
-### 📈 Featured Engineering Projects
+# 🚀 About Me
 
-* **⚡ Enterprise RBAC Workflow Dashboard**
-  * **Architecture:** Full-stack enterprise task management portal featuring an interactive Kanban board, admin analytics, and command-palette.
-  * **Features:** Built secure RESTful APIs with JWT authentication, strict RBAC, and SQLModel-optimized database queries for efficient, structured data retrieval.
-  * **Tech:** FastAPI, PostgreSQL, JavaScript, CSS.
-  *  [Live Demo](https://enterprise-os-frontend.vercel.app/)
-  
+- 🐍 Python Backend Developer
+- 🤖 AI & LLM Application Developer
+- ☁️ Cloud & Docker Enthusiast
+- 🏗️ Passionate about System Design & Backend Architecture
+- 📚 Currently exploring Multi-Agent AI Systems and AI Infrastructure
 
-* **🤖 IT Support AI Agent** *A hallucination-proof, defensive-parsing AI assistant.*
-  * **Architecture:** Serverless AI chatbot deployed on Google Cloud Platform (GCP) to automate internal IT workflows.
-  * **Features:** Built a Retrieval-Augmented Generation (RAG) pipeline utilizing a Qdrant vector database to perform highly accurate, vector-indexed semantic search. Compiled and optimized prompt mechanics using the DSPy framework to ensure programmatically refined, hallucination-free responses bound strictly to enterprise knowledge bases.
-  * **Tech:** Python, FastAPI, Qdrant, DSPy, GCP, LangChain.
-  * [Live Demo](https://it-support-agent-five.vercel.app/)
+---
 
-* **🔐 Enterprise Authentication Infrastructure** 
-  * **Architecture:** Engineered a decoupled Django/Vue.js auth pipeline featuring zero-trust JWT sessions and secure OTP password resets.
-  * **Features:** Integrated the Brevo HTTP API to bypass cloud SMTP firewalls, ensuring 100% DMARC-compliant inbox delivery. Deployed scalable, cross-cloud infrastructure backed by a cloud-native PostgreSQL database.
-  * **Tech:** Django, Vue.js, PostgreSQL, Vercel, Render, Brevo API.
-  *  [Live Demo](https://nexus-auth-by-parthsantoki.vercel.app/)
+# 💻 Tech Stack
 
-* **🏢 Enterprise Asset System**
-  * **Architecture:** Engineered a full-stack CRUD application to manage corporate hardware lifecycles.
-  * **Features:** Designed an invisible soft-delete data model and tamper-proof audit logging within the database layer to ensure strict relational data integrity. Implemented multi-tier Role-Based Access Control (RBAC) to restrict API endpoints based on user permissions.
-  * **Tech:** FastAPI, PostgreSQL.
-  *  [Live Demo](https://asset-managment-system-ten.vercel.app/)
-    
+### Languages
+Python • Java • SQL • JavaScript • HTML • CSS
 
-* **This projects hosted on demo environment initial request can take upto 45 sec**
+### Backend
+FastAPI • Django • REST APIs • WebSockets • SQLModel • SQLAlchemy • JWT • RBAC
 
+### AI & LLM
+LangChain • LangGraph • DSPy • Hugging Face • RAG • Qdrant
 
-* **🎮 Interactive Event Orchestration Engines** *Real-time bi-directional streaming tools.*
-  * **Architecture:** Custom event loops linking external chat interfaces to active client environments.
-  * **Tech:** Node.js, WebSockets, C# integrations.
+### Database & Cloud
+PostgreSQL • Docker • Google Cloud Platform • Oracle Cloud • Vercel • Render
 
-* **🌐 Personal Portfolio Website**
-  * **Architecture:** Designed and deployed a responsive portfolio architecture utilizing modern HTML5, CSS3, and JavaScript to showcase full-stack and cloud competencies.
-  * **Features:** Implemented advanced UI/UX principles, including dynamic glassmorphism aesthetics and performance-optimized animations, ensuring a frictionless user experience.
-  * [santokiparth.dev](https://www.santokiparth.dev)
+---
 
-📫 **Let's Connect:** 🌐 [santokiparth.dev](https://www.santokiparth.dev) | 💼 [Upwork Profile](https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share) | ✉️ parthsantoki5834@gmail.com
+# ⭐ Featured Projects
+
+## 🤖 DocuChat Pro
+### Enterprise AI Document Intelligence Platform
+
+DocuChat Pro transforms uploaded documents into an intelligent conversational knowledge base through an automated Retrieval-Augmented Generation (RAG) pipeline. The platform enables users to securely interact with PDFs and enterprise documents using natural language while maintaining highly relevant, context-aware responses.
+
+### Highlights
+- Automated document ingestion, intelligent chunking, embedding generation, and vector indexing
+- Semantic search powered by **Qdrant** and **LangChain**
+- Secure FastAPI backend with JWT authentication and scalable Docker deployment
+
+**Tech:** FastAPI • PostgreSQL • LangChain • Hugging Face • Qdrant • Docker
+
+---
+
+## 📄 DocMind AI
+### AI-Powered Enterprise Document Management
+
+DocMind AI combines secure document management with conversational AI, allowing organizations to organize, search, and interact with business documents through semantic understanding instead of traditional keyword search.
+
+### Highlights
+- Intelligent document management with AI-powered semantic search
+- End-to-end RAG workflow including document processing, embeddings, vector search, and LLM orchestration
+- Modular FastAPI backend with PostgreSQL, SQLModel, and Docker
+
+**Tech:** FastAPI • PostgreSQL • SQLModel • LangChain • Qdrant • Docker
+
+---
+
+## 🧠 AI Research Assistant
+### Multi-Agent Research Automation Platform
+
+An autonomous research platform that orchestrates multiple AI agents to plan research strategies, retrieve information, analyze evidence, validate findings, and generate structured research reports with minimal human intervention.
+
+### Highlights
+- Multi-agent orchestration built with **LangGraph**
+- Context-aware knowledge retrieval using Retrieval-Augmented Generation (RAG)
+- Modular FastAPI services with scalable Docker deployment
+
+**Tech:** FastAPI • LangGraph • LangChain • PostgreSQL • Qdrant • Docker
+
+---
+
+## 🖥️ IT Support AI Agent
+### Enterprise AI Knowledge Assistant
+
+An AI-powered enterprise support assistant designed to automate internal IT helpdesk operations using organization-specific knowledge rather than generic language model responses.
+
+### Highlights
+- Retrieval-Augmented Generation pipeline backed by **Qdrant Vector Database**
+- Prompt optimization and response refinement using **DSPy**
+- Cloud-native deployment on **Google Cloud Platform** with scalable FastAPI services
+
+**Tech:** FastAPI • Qdrant • DSPy • PostgreSQL • Docker • Google Cloud
+
+🔗 **Live Demo:** https://it-support-ai-agent.vercel.app/
+
+---
+
+## 🏢 IT Infrastructure Management System (ITIMS)
+### Enterprise IT Operations Platform
+
+A centralized platform designed to streamline enterprise IT operations by integrating asset lifecycle management, helpdesk services, employee onboarding, audit logging, and operational reporting into a unified role-based system.
+
+### Highlights
+- Enterprise asset management with lifecycle, warranty, assignment, and maintenance tracking
+- Integrated helpdesk, ticket management, notifications, audit trails, and reporting dashboards
+- Secure FastAPI backend with JWT authentication, RBAC, and scalable REST APIs
+
+**Tech:** FastAPI • PostgreSQL • JWT • SQLModel • Docker
+
+---
+
+## 📋 Enterprise RBAC Workflow Dashboard
+### Enterprise Workflow & Task Management
+
+A modern workflow management platform that simplifies enterprise operations through role-based task management, Kanban workflows, analytics dashboards, and administrative controls.
+
+### Highlights
+- Interactive Kanban boards with workflow automation
+- Secure REST APIs with JWT authentication and Role-Based Access Control
+- Optimized PostgreSQL data layer with modular FastAPI architecture
+
+**Tech:** FastAPI • PostgreSQL • SQLModel • JavaScript • Docker
+
+🔗 **Live Demo:** https://enterprise-os-frontend.vercel.app/
+
+---
+
+# 🌐 Portfolio
+
+**Website:** https://www.santokiparth.dev
+
+Explore additional projects, technical blogs, and backend engineering work.
+
+---
+
+# 📫 Let's Connect
+
+🌐 Portfolio: https://www.santokiparth.dev
+
+💼 Upwork: https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share
+
+📧 Email: parthsantoki5834@gmail.com
+
+---
+
+> *"I enjoy designing backend systems that combine scalable architectures, intelligent AI workflows, and secure cloud-native applications to solve real-world problems."*
