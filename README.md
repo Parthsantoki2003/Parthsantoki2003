@@ -128,7 +128,7 @@ A modern workflow management platform that simplifies enterprise operations thro
 
 # 📫 Let's Connect
 
-🌐 Portfolio: https://www.santokiparth.dev
+🌐 Portfolio: https://santokiparth.dev
 
 💼 Upwork: https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share
 
