@@ -126,14 +126,6 @@ A modern workflow management platform that simplifies enterprise operations thro
 
 ---
 
-# 🌐 Portfolio
-
-**Website:** https://www.santokiparth.dev
-
-Explore additional projects, technical blogs, and backend engineering work.
-
----
-
 # 📫 Let's Connect
 
 🌐 Portfolio: https://www.santokiparth.dev
