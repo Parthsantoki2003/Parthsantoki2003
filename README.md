@@ -130,7 +130,6 @@ A modern workflow management platform that simplifies enterprise operations thro
 
 🌐 Portfolio: https://santokiparth.dev
 
-💼 Upwork: https://www.upwork.com/freelancers/~01a59d8f3a7ba0cb28?mp_source=share
 
 📧 Email: parthsantoki5834@gmail.com
 
