@@ -5,18 +5,18 @@ I design and build intelligent backend systems that combine AI, cloud infrastruc
 </p>
 
 <p align="left">
-My work focuses on Retrieval-Augmented Generation (RAG), multi-agent AI systems, enterprise backend architecture, and secure cloud-native applications. I enjoy transforming complex workflows into reliable, production-ready software using Python, FastAPI, PostgreSQL, Docker, and modern AI frameworks.
+My work focuses on Retrieval-Augmented Generation (RAG), multi-agent AI systems, real-time video analytics, and secure cloud-native applications. I enjoy transforming complex workflows into reliable, production-ready software using Python, FastAPI, PostgreSQL, Docker, and modern AI/ML frameworks.
 </p>
 
 ---
 
 # 🚀 About Me
 
-- 🐍 Python Backend Developer
-- 🤖 AI & LLM Application Developer
+- 🐍 Python Backend & AI Developer
+- 🤖 Specialized in LLM Agents, RAG, and Computer Vision
 - ☁️ Cloud & Docker Enthusiast
-- 🏗️ Passionate about System Design & Backend Architecture
-- 📚 Currently exploring Multi-Agent AI Systems and AI Infrastructure
+- 🏗️ Passionate about System Design, Concurrency, and Scalable Architectures
+- 📚 Currently exploring high-performance inference and multi-agent AI orchestration
 
 ---
 
@@ -25,44 +25,45 @@ My work focuses on Retrieval-Augmented Generation (RAG), multi-agent AI systems,
 ### Languages
 Python • Java • SQL • JavaScript • HTML • CSS
 
-### Backend
-FastAPI • Django • REST APIs • WebSockets • SQLModel • SQLAlchemy • JWT • RBAC
+### Backend & Infrastructure
+FastAPI • REST APIs • WebSockets • WebRTC • Redis • SQLModel • SQLAlchemy • JWT • RBAC
 
-### AI & LLM
-LangChain • LangGraph • DSPy • Hugging Face • RAG • Qdrant
+### AI, ML & LLMs
+LangChain • LangGraph • DSPy • PyTorch • YOLOv8 • OpenCV • CUDA • Hugging Face • Qdrant • RedisVL
 
-### Database & Cloud
-PostgreSQL • Docker • Google Cloud Platform • Oracle Cloud • Vercel • Render
+### Database, Cloud & DevOps
+PostgreSQL • Docker • Google Cloud Platform (GCP) • Oracle Cloud (OCI) • Vercel 
 
 ---
 
 # ⭐ Featured Projects
 
-## 🤖 DocuChat Pro
-### Enterprise AI Document Intelligence Platform
+## 📹 Sentinel – AI Video Analytics & Surveillance Platform
+### High-Performance Real-Time Computer Vision System
 
-DocuChat Pro transforms uploaded documents into an intelligent conversational knowledge base through an automated Retrieval-Augmented Generation (RAG) pipeline. The platform enables users to securely interact with PDFs and enterprise documents using natural language while maintaining highly relevant, context-aware responses.
+A full-stack, AI-driven video analytics platform capable of ingesting and processing 30 concurrent live camera streams using WebRTC and RTSP, originally conceived for a statewide multi-department CCTV integration.
 
 ### Highlights
-- Automated document ingestion, intelligent chunking, embedding generation, and vector indexing
-- Semantic search powered by **Qdrant** and **LangChain**
-- Secure FastAPI backend with JWT authentication and scalable Docker deployment
+- Engineered a multi-threaded inference pipeline separating video capture from AI processing, utilizing **YOLOv8** on **CUDA** to achieve **15ms latency** without dropping frames.
+- Designed an OCR ensemble (FastPlateOCR, RapidOCR) with automated API fallback (Gemini/Groq), utilizing cross-frame validation algorithms to eliminate false positives.
+- Optimized cloud costs and bandwidth by implementing an edge-based image sharpness filter, reducing unnecessary API calls by 90%.
+- Integrated **Redis** for sub-millisecond watchlist lookups and real-time Server-Sent Events (SSE).
 
-**Tech:** FastAPI • PostgreSQL • LangChain • Hugging Face • Qdrant • Docker
+**Tech:** Python • FastAPI • React • WebRTC • YOLOv8 • PyTorch • CUDA • PostgreSQL • Redis
 
 ---
 
-## 📄 DocMind AI
-### AI-Powered Enterprise Document Management
+## 🤖 DocuChat Pro
+### Enterprise AI Document Intelligence Platform
 
-DocMind AI combines secure document management with conversational AI, allowing organizations to organize, search, and interact with business documents through semantic understanding instead of traditional keyword search.
+DocuChat Pro transforms uploaded documents into an intelligent conversational knowledge base through a highly optimized Retrieval-Augmented Generation (RAG) pipeline. 
 
 ### Highlights
-- Intelligent document management with AI-powered semantic search
-- End-to-end RAG workflow including document processing, embeddings, vector search, and LLM orchestration
-- Modular FastAPI backend with PostgreSQL, SQLModel, and Docker
+- High-performance RAG combining dense vector search and sparse lexical querying with RRF and Cross-Encoder re-ranking.
+- Integrated **RedisVL** for semantic caching to optimize retrieval speed and query response times.
+- Implemented real-time observability and asynchronous evaluation pipelines using **Langfuse** and the **Ragas** framework to track metrics like Faithfulness and Context Precision.
 
-**Tech:** FastAPI • PostgreSQL • SQLModel • LangChain • Qdrant • Docker
+**Tech:** FastAPI • Qdrant • BM25 • RedisVL • Langfuse • Ragas • PostgreSQL • Docker
 
 ---
 
@@ -72,66 +73,62 @@ DocMind AI combines secure document management with conversational AI, allowing 
 An autonomous research platform that orchestrates multiple AI agents to plan research strategies, retrieve information, analyze evidence, validate findings, and generate structured research reports with minimal human intervention.
 
 ### Highlights
-- Multi-agent orchestration built with **LangGraph**
-- Context-aware knowledge retrieval using Retrieval-Augmented Generation (RAG)
-- Modular FastAPI services with scalable Docker deployment
+- Stateful multi-agent orchestration built with **LangGraph** utilizing a central Supervisor Node.
+- Designed a Human-In-The-Loop (HITL) approval process using execution interrupts to review structured outputs before finalizing responses.
+- Built custom tool integration nodes (Tavily Web Search, PDF Reader, File Writer) with real-time tracing via Langfuse.
 
-**Tech:** FastAPI • LangGraph • LangChain • PostgreSQL • Qdrant • Docker
+**Tech:** LangGraph • FastAPI • React • Llama 3.3 • SQLite • Tavily API
 
 ---
 
 ## 🖥️ IT Support AI Agent
 ### Enterprise AI Knowledge Assistant
 
-An AI-powered enterprise support assistant designed to automate internal IT helpdesk operations using organization-specific knowledge rather than generic language model responses.
+An AI-powered enterprise support assistant designed to automate internal IT helpdesk operations using organization-specific knowledge, deployed on Google Cloud Platform.
 
 ### Highlights
-- Retrieval-Augmented Generation pipeline backed by **Qdrant Vector Database**
-- Prompt optimization and response refinement using **DSPy**
-- Cloud-native deployment on **Google Cloud Platform** with scalable FastAPI services
+- Prompt optimization and programmatic response refinement using **DSPy**, significantly reducing LLM hallucination rates.
+- Parsed and indexed 500+ pages of text into a hybrid search system to retrieve exact quotes and specific data points quickly.
+- Secured application routes using JWT authentication, bcrypt hashing, and granular multi-tier RBAC.
 
-**Tech:** FastAPI • Qdrant • DSPy • PostgreSQL • Docker • Google Cloud
+**Tech:** Python • FastAPI • DSPy • Qdrant • PostgreSQL • GCP • Docker
 
 🔗 **Live Demo:** https://it-support-ai-agent.vercel.app/
+
+---
+
+## 📄 DocMind AI
+### Multi-Tenant Document Management System
+
+A multi-tenant document management platform that allows users to upload files and query them using an AI assistant, with integrated monetization.
+
+### Highlights
+- Implemented API rate-limiting middleware and subscription usage caps linked directly to **Stripe billing tiers**.
+- Added Langfuse integration to track LLM response times, monitor token usage, and log query errors.
+- Containerized microservices using Docker to separate the API server, background ingestion workers, and vector search operations.
+
+**Tech:** FastAPI • PostgreSQL • SQLModel • Stripe API • Langfuse • Qdrant • Docker
 
 ---
 
 ## 🏢 IT Infrastructure Management System (ITIMS)
 ### Enterprise IT Operations Platform
 
-A centralized platform designed to streamline enterprise IT operations by integrating asset lifecycle management, helpdesk services, employee onboarding, audit logging, and operational reporting into a unified role-based system.
+A centralized platform designed to streamline enterprise IT operations by integrating asset lifecycle management, helpdesk services, employee onboarding, audit logging, and operational reporting.
 
 ### Highlights
-- Enterprise asset management with lifecycle, warranty, assignment, and maintenance tracking
-- Integrated helpdesk, ticket management, notifications, audit trails, and reporting dashboards
-- Secure FastAPI backend with JWT authentication, RBAC, and scalable REST APIs
+- Enterprise asset management with lifecycle, warranty, assignment, and maintenance tracking.
+- Secure FastAPI backend with JWT authentication, RBAC, and scalable REST APIs.
 
 **Tech:** FastAPI • PostgreSQL • JWT • SQLModel • Docker
 
 ---
 
-## 📋 Enterprise RBAC Workflow Dashboard
-### Enterprise Workflow & Task Management
-
-A modern workflow management platform that simplifies enterprise operations through role-based task management, Kanban workflows, analytics dashboards, and administrative controls.
-
-### Highlights
-- Interactive Kanban boards with workflow automation
-- Secure REST APIs with JWT authentication and Role-Based Access Control
-- Optimized PostgreSQL data layer with modular FastAPI architecture
-
-**Tech:** FastAPI • PostgreSQL • SQLModel • JavaScript • Docker
-
-🔗 **Live Demo:** https://enterprise-os-frontend.vercel.app/
-
----
-
 # 📫 Let's Connect
 
-🌐 Portfolio: https://santokiparth.dev
-
-
-📧 Email: parthsantoki5834@gmail.com
+🌐 **Portfolio:** https://santokiparth.dev  
+📧 **Email:** parthsantoki5834@gmail.com  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/parth-santoki-6584a7332/](#) 
 
 ---
 
